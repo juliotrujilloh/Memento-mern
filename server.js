@@ -1,7 +1,7 @@
 require('dotenv').config();
 const express = require('express');
 const mongoose = require('mongoose');
-const noteRoutes = require('./routes/notes');
+const noteRoutes = require('./backend/routes/notes');
 const path = require('path');
 
 const app = express();
@@ -27,7 +27,7 @@ if (process.env.NODE_ENV === "production") {
     app.use(express.static(path.join(__dirname, 'frontend/build')))
 
     app.get('*', (req, res) => {
-        res.sendFile(path.resolve(__dirname, 'frontend','index.html'));
+        res.sendFile(path.resolve(__dirname, 'frontend', 'build','index.html'));
     })
 }
 
