@@ -71,7 +71,7 @@ form .fab {
   float: left;
 }
 .note h1 {
-  
+  word-wrap: break-word;
   font-size: 1em;
   margin-bottom: 6px;
 }
