@@ -2,6 +2,8 @@
 
 MERN stack web app to create notes online.
 
+Please feel free to leave a note: https://memento-mern.herokuapp.com/
+
 ## Description
 
 This project was created using React.js for the front-end and the different dependencies listed below.
