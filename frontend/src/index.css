@@ -1,0 +1,114 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #659ba8;
+  background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  background-color:#205b63;
+  margin: auto -16px;
+  padding: 16px 32px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+header h1 {
+  color: #fff;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 200;
+}
+
+/*For Home/CreateArea */
+form {
+  position: relative;
+  width: 480px;
+  margin: 30px auto 20px auto;
+  background: #fff;
+  padding: 15px;
+  border-radius: 7px;
+  box-shadow: 0 1px 5px rgb(138, 137, 137);
+}
+
+form input,
+form textarea {
+  width: 100%;
+  border: none;
+  padding: 4px;
+  outline: none;
+  font-size: 1.2em;
+  font-family: inherit;
+  resize: none;
+}
+form .fab {
+  position: absolute;
+  right: 18px;
+  bottom: -18px;
+  background: #fff;
+  color:  #205b63;
+  border: none;
+  border-radius: 80%;
+  width: 36px;
+  height: 36px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  outline: none;
+}
+
+/*For the Notes */
+.note {
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 10px;
+  width: 240px;
+  margin: 16px;
+  float: left;
+}
+.note h1 {
+  
+  font-size: 1em;
+  margin-bottom: 6px;
+}
+.note p {
+  font-size: 1em;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.note button {
+  background: #fff;
+  position: relative;
+  float: right;
+  margin-right: -10px;
+  margin-bottom: -10px;
+  color: #205b63;
+  border: none;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+  outline: none;
+}
+
+#created {
+  position: absolute;
+  
+
+  float: left;
+  margin-left: 0px;
+  font-size: 10px;
+}
+
+div.error{
+  padding: 10px;
+  background: #f1f1f1;
+  border: 1px solid var(--error);
+  border-radius: 4px;
+  margin: 20px 0;
+}
