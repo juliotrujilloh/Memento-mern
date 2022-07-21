@@ -10,9 +10,6 @@ This project was created using React.js for the front-end and the different depe
 Each notes added is re-render with the use of React Hooks and Context use. 
 Bridged the communication between the Frontend and Backend with JSON api's format and fetch.
 
-
-## Getting Started
-
 ### Dependencies
 
 * Node.js
